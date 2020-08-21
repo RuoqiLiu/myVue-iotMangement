@@ -1,0 +1,41 @@
+.login-container {
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    bottom: 0px;
+    position: absolute;
+}
+.login-page {
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin: 150px auto;
+    width: 350px;
+    padding: 25px 25px 10px;
+    background: #ffff;
+    border: 1px solid #eaeaea;
+    box-shadow: 0 0 25px #cac6c6;
+}
+
+.background{
+    width:100%;  
+    height:100%;  /**宽高100%是为了图片铺满屏幕 */
+    z-index:-1;
+    position: absolute;
+}
+.login-title span{
+	font-size: 16px;
+	display:inline-block;
+	color: #1F6ED4; 
+	padding: 15px 20px 20px 20px ;
+}
+
+.float-right{
+    float: right;
+}
+
+.a-link{
+	margin: 10px;
+    color: #1F6ED4;
+    cursor: pointer;
+    font-weight: bold;
+}
